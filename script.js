@@ -1,7 +1,7 @@
 // Função para obter e exibir os comentários
         async function carregarComentarios() {
             try {
-                const response = await fetch('https://backk-vty6.onrender.com');
+                const response = await fetch('https://backk-vty6.onrender.com/comentarios');
                 const data = await response.json();
                 document.getElementById('comentarios').textContent = data.comentarios || "Nenhum comentário ainda.";
             } catch (error) {
