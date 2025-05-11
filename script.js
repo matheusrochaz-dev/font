@@ -16,7 +16,7 @@
             const comentario = document.getElementById('comentario').value.trim();
             if (comentario) {
                 try {
-                    const response = await fetch('https://backend-comentarios.onrender.com/comentar', {
+                    const response = await fetch('https://backk-vty6.onrender.com/comentar', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json'
