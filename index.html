@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentários</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Comentários</h1>
+    </header>
+
+    <main>
+        <form onsubmit="enviarComentario(event)">
+            <textarea id="comentario" rows="4" cols="50" placeholder="Escreva seu comentário aqui..." required></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <h2>Comentários salvos:</h2>
+        <pre id="comentarios"></pre>
+    </main>
+</body>
+</html>
